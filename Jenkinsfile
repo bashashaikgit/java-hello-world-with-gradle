@@ -13,6 +13,7 @@ pipeline {
          }
          stage('Build') {
              steps {      
+                  sh 'echo Debug'
                   sh 'pwd'
                   sh 'ls -lrt'
                   sh './gradlew clean build'
