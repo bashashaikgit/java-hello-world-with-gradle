@@ -16,7 +16,7 @@ pipeline {
                   bat 'echo Debug'
                   bat 'pwd'
                   bat 'ls -lrt'
-                  bat './gradlew clean build'
+                  bat './gradlew.bat clean build'
              }              
          }
      }
