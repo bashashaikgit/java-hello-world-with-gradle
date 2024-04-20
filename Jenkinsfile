@@ -14,7 +14,6 @@ pipeline {
          stage('Build') {
              steps {      
                   bat 'echo Debug'
-                  bat 'ls -lrt'
                   bat './gradlew.bat clean build'
              }              
          }
