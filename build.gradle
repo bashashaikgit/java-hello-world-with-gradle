@@ -48,8 +48,8 @@ jar {
 // end::jar[]
 
 // tag::dependencies[]
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 21.0.3
+targetCompatibility = 21.0.3
 
 dependencies {
     compile "joda-time:joda-time:2.2"
