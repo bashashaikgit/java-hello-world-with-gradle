@@ -13,8 +13,8 @@ pipeline {
          }
          stage('Build') {
              steps {      
-                  bat 'echo Debug'
-                  bat './gradlew.bat clean build'
+                  sh 'echo Debug'
+                  sh './gradlew clean build'
              }              
          }
      }
